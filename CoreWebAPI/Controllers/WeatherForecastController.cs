@@ -28,6 +28,11 @@ namespace CoreWebAPI.Controllers
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
+
+        }
+        public void getdata()
+        {
+            //to do
         }
     }
 }
